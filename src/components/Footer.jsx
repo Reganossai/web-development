@@ -1,6 +1,5 @@
 import React from "react";
 import Logo from "../assets/logo.png";
-import linkedin from "../assets/linkedin.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopyright } from "@fortawesome/free-regular-svg-icons";
 import { Link } from "react-router-dom";
