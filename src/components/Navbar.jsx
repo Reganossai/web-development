@@ -28,6 +28,7 @@ const Navbar = () => {
           <NavLink exact activeClassName="active" to="/">
             Home
           </NavLink>
+          
         </li>
         <li className="nav-link">
           <NavLink activeClassName="active" to="/about">
