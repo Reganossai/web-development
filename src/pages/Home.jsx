@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
+import dom from "../assets/dom.png";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -10,6 +11,8 @@ const Home = () => {
     <div className="home">
       <Navbar />
       <div className="body-content">
+        <h6>CHAPTER ONE</h6>
+
         <h1>
           Firstly, prior knowledge of the tools and processes involved in web
           develpment is required
@@ -19,10 +22,10 @@ const Home = () => {
         <p>
           <b> An editor</b> which compiles the source code and displays it on
           the browser . There are a lot of <b>editors</b> used in web
-          development. Some of which include Vscode, sublime text etc. We'll
-          make use of Vscode which is the best (according to me lol).
+          development. Some of which include Vscode, sublime text etc. We'll be
+          making use of Vscode for this tutorial.
         </p>
-        
+
         <a href="https://code.visualstudio.com/download" alt="vs-code-download">
           Here's a link to download Vscode
         </a>
@@ -40,21 +43,14 @@ const Home = () => {
         <p>
           <span>
             <b>Html</b>
-          </span>
-          stands for
-          <span>
-            <b>"Hyper Text Markup Language"</b>
-          </span>
+          </span> stands for <span> <b>"Hyper Text Markup Language"</b></span>
           .
         </p>
         <p>
           Just like they say, a cell is the smallest unit of life, we can also
           use the persepective in terms of looking at html.
         </p>
-        <p>
-          <span>
-            <b>Html</b>
-          </span>{" "}
+        <p> <span><b>Html</b> </span>
           is a standardized language for tagging text files to achieve font,
           colour, graphic, and hyperlink effects on a web page in a browser.
         </p>
@@ -85,17 +81,8 @@ const Home = () => {
 
         <h3>Learn Css</h3>
 
-        <p>
-          <span>
-            <b>Css</b>
-          </span>
-          stands for "Cascading Style sheet".
-        </p>
-        <p>
-          <span>
-            <b>Css is a styling language</b>
-          </span>
-          which the browser understands and it is used when adding style to
+        <p><span><b>Css</b> </span> stands for "Cascading Style sheet".</p>
+        <p><span> <b>Css is a styling language</b></span> which the browser understands and it is used when adding style to
           whatever is on the browser. There are other supersets of <b>css</b>{" "}
           like scss/sass which are more complex and give more precision to
           designs but all are compiled into pure css finally because it's the
@@ -106,11 +93,7 @@ const Home = () => {
         </a>
         <p>
           On the left hand side, there are detailed sub modules to help you gain
-          the knowledge you require in{" "}
-          <span>
-            <b>css</b>
-          </span>
-          .
+          the knowledge you require in <span> <b>css</b></span>.
         </p>
         <img src={css} alt="css" />
 
@@ -122,14 +105,13 @@ const Home = () => {
         </p>
         <p>
           If you studied and practiced the whole processes in both the html and
-          css courses above, i'll be assuming you have been able to create your
-          own little cute web pages.
+          css courses above, you should be able to create your own little cute
+          web pages.
         </p>
-        <p>Luckily for you, the journey is not yet over. </p>
         <p>
           There's another very important language that the browser understands
           and this makes your website very effective as it's used to do a lot of
-          important stuff. This very important language is called
+          important things. This very important language is called
           <b> javascript </b>. It's quite complex but important
         </p>
 
@@ -137,8 +119,7 @@ const Home = () => {
         <p>
           <span>
             <b>Javascript</b>
-          </span>
-          is a dynamic programming language that's used for web development, in
+          </span> is a dynamic programming language that's used for web development, in
           web applications, for game development, and lots more. It allows you
           to implement dynamic features on web pages that cannot be done with
           only HTML and CSS..
@@ -162,8 +143,19 @@ const Home = () => {
             in that order.
           </b>
         </p>
+
+        <h6>CHAPTER TWO</h6>
+        <h1>The DOM</h1>
+        <p>The <b>DOM</b> defines a standard for accessing documents. The <b>DOM</b> stands for "Document Object Model" and it is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document.</p>
+     
+        <a href="https://www.w3schools.com/js/js_htmldom.asp#:~:text=The%20DOM%20defines%20a%20standard,and%20style%20of%20a%20document.%22">
+          Here's a link to learn about the DOM and more of what it entails
+        </a>
+
+        <p>On the left hand side, there are detailed sub modules to explain what the DOM is all about and its significance.</p>
+       <img src={dom} alt="dom"/>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
