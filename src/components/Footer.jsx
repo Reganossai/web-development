@@ -24,7 +24,7 @@ const Footer = () => {
             <span>
               <FontAwesomeIcon icon={faCopyright} />
             </span>
-            2023 Next-Itservices{" "}
+            2023 Next-Itservices
           </h1>
         </div>
         <hr className="hirrr" />
